@@ -75,8 +75,8 @@ function App() {
             right: 0,
             textAlign: "center",
             zindex: 9,
-            width: 640,
-            height: 480,
+            width: 440,
+            height: 380,
           }}
         />
 
@@ -90,8 +90,8 @@ function App() {
             right: 0,
             textAlign: "center",
             zindex: 9,
-            width: 640,
-            height: 480,
+            width: 440,
+            height: 380,
           }}
         />
       </header>
