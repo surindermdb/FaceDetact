@@ -26,7 +26,7 @@ function App() {
 
   //  Load posenet
   const runFacemesh = async () => {
-    const net = await facemesh.load(facemesh.SupportedPackages.mediapipeFacemesh);
+    const net = await facemesh.load({inputResolution:{width:440, height: 380}, scale:0.8 });
     setInterval(() => {
       detect(net);
     }, 10);
